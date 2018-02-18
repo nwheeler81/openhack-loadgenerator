@@ -13,8 +13,6 @@ recs = int(os.environ.get('RECS'))
 type_load = os.environ.get('TYPE_LOAD')
 words = [word.strip() for word in open('words').readlines()]
 
-print url, type_load
-
 @application.route("/")
 def main(): 
     for identifier in range(1, recs + 1):
