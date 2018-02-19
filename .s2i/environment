@@ -1,4 +1,4 @@
 APP_CONFIG=config.py
-WS_URL=http://microservice-cassandra.192.168.64.2.nip.io/raitings/api/v1.0/shops/send
+WS_URL=http://microservice-testme.apps.rhocp.com
 RECS=1000
 TYPE_LOAD=raitings
